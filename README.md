@@ -22,6 +22,7 @@ Hackintosh EFI for `ASUS B460 ITX` + `Intel Core i7 10700` + `BCM94360CS2 Wirele
 
 **Step 6** -- Modified `Misc` > `PickerMode` set from `Builtin` to `External`, `ShowPicker` to `True` in `config.plist`
 
+Step 7 -- Go through the new `config.plist` with [OpenCore Sanity Checker](https://opencore.slowgeek.com/), if everything is satisfied in the check list, the new `EFI` should be good to go
 
 ## Source Code
 
