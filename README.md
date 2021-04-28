@@ -1,6 +1,6 @@
 # Hackintosh EFI
 
-Hackintosh EFI for `ASUS B460` + `Intel Core i7 10700`
+Hackintosh EFI for `ASUS B460 ITX` + `Intel Core i7 10700` + `BCM94360CS2 Wireless Air Port Card`
 
 ## OC Version tags
 
