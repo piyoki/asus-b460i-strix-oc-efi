@@ -8,4 +8,9 @@ Hackintosh EFI for `ASUS B460` + `Intel Core i7 10700`
 
 ## Useful Links for Hackintosh
 
-[Open Core Configurator]()
+- [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/)
+- [OC Builder](https://github.com/Pavo-IM/ocbuilder)
+- [Hackintools](https://github.com/headkaze/Hackintool)
+- [OC-Gen-X](https://github.com/Pavo-IM/OC-Gen-X)
+- [Propertree](https://github.com/corpnewt/ProperTree)
+
