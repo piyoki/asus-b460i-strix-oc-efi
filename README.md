@@ -20,9 +20,11 @@ Hackintosh EFI for `ASUS B460 ITX` + `Intel Core i7 10700` + `BCM94360CS2 Wirele
 
 **Step 5** -- Open the `config.plist` with [Propertree](https://github.com/corpnewt/ProperTree) then use `Cmd + R` to load the new drivers to the `config.plist`
 
-**Step 6** -- Modify `Misc` > `PickerMode` set from `Builtin` to `External`, `ShowPicker` to `True` in `config.plist`
+**Step 6** -- Modify `Platforminfo` > `Generic` > `MLB`, `SystemSerialNumber`, and `SystemUUID` in the new `config.plist` to match the data in the old `config.plist`
 
-**Step 7** -- Go through the new `config.plist` with [OpenCore Sanity Checker](https://opencore.slowgeek.com/), if everything is satisfied in the check list, the new `EFI` should be good to go
+**Step 7** -- Modify `Misc` > `PickerMode` set from `Builtin` to `External`, `ShowPicker` to `True` in `config.plist`. This will enable the Graphic Picker feature at boot.
+
+**Step 8** -- Go through the new `config.plist` with [OpenCore Sanity Checker](https://opencore.slowgeek.com/), if everything is satisfied in the check list, the new `EFI` should be good to go
 
 ## Source Code
 
