@@ -18,7 +18,7 @@ Hackintosh EFI for `ASUS B460 ITX` + `Intel Core i7 10700` + `BCM94360CS2 Wirele
 
 **Step 4** -- Copy the previous version of `config.plist` to the new `EFI` folder
 
-**Step 5** -- Open the `config.plist` with [Propertree](https://github.com/corpnewt/ProperTree) then use `Cmd + R` to load the new drivers to the `config.plist`
+**Step 5** -- Open the `config.plist` with [Propertree](https://github.com/corpnewt/ProperTree) then use `Cmd + R` and select the `OC` folder to load the new drivers to the `config.plist`
 
 **Step 6** -- Modify `Platforminfo` > `Generic` > `MLB`, `SystemSerialNumber`, and `SystemUUID` in the new `config.plist` to match the data in the old `config.plist`
 
