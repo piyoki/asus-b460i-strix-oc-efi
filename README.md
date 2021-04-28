@@ -15,10 +15,10 @@ Hackintosh EFI for `ASUS B460` + `Intel Core i7 10700`
 **Step 2** -- Use [OC Gen-X](https://github.com/Pavo-IM/OC-Gen-X)) to generate the latest version of `OC`
 
 **Step 3** -- Copy the `ACPI` and `KEXT` files from the older version of OC to the newer version of OC
-**
-Step 4** -- Copy the previous version of `config.plist` to the new `EFI` folder
-**
-Step 5** -- Open the `config.plist` with [Propertree](https://github.com/corpnewt/ProperTree) then use `Cmd + R` to load the new drivers to the `config.plist`
+
+**Step 4** -- Copy the previous version of `config.plist` to the new `EFI` folder
+
+**Step 5** -- Open the `config.plist` with [Propertree](https://github.com/corpnewt/ProperTree) then use `Cmd + R` to load the new drivers to the `config.plist`
 
 **Step 6** -- Modified `Misc` > `PickerMode` set from `Builtin` to `External`, `ShowPicker` to `True` in `config.plist`
 
