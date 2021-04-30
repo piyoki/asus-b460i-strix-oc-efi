@@ -90,7 +90,7 @@ I used the iMac19,1 SMBIOS because that was what the guide recommended at the ti
 | :----------------------------------------------------------- | :------------------------------- |
 | CPU - Geekbench                                              | Single / Multi-Core: 1262 / 7773 |
 | Intel UHD630 - Geekbench                                     | OpenCL / Metal: 5319 / 4972      |
-| RX 5500 XT - Geekbench ([with Radeon performance improvements](https://www.tonymacx86.com/threads/amd-radeon-performance-enhanced-ssdt.296555/)) | OpenCL / Metal: 5319 / 4972      |
+| RX 5500 XT - Geekbench ([with Radeon performance improvements](https://www.tonymacx86.com/threads/amd-radeon-performance-enhanced-ssdt.296555/)) | OpenCL / Metal: 37937/ 39645     |
 
 ## OC Version tags
 
@@ -130,3 +130,4 @@ I used the iMac19,1 SMBIOS because that was what the guide recommended at the ti
 - [Propertree](https://github.com/corpnewt/ProperTree)
 - [OpenCore Official Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [OpenCore Sanity Checker](https://opencore.slowgeek.com/)
+
