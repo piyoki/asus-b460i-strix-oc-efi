@@ -129,4 +129,4 @@ I used the iMac19,1 SMBIOS because that was what the guide recommended at the ti
 - [OC-Gen-X](https://github.com/Pavo-IM/OC-Gen-X)
 - [Propertree](https://github.com/corpnewt/ProperTree)
 - [OpenCore Official Guide](https://dortania.github.io/OpenCore-Install-Guide/)
-- [OpenCore Sanity Checker](
+- [OpenCore Sanity Checker](https://opencore.slowgeek.com/)
