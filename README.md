@@ -98,7 +98,7 @@ I used the iMac19,1 SMBIOS because that was what the guide recommended at the ti
 
 ## Upgrade Guide
 
-**Step 0** -- Download the latest version of `OpenCore Bootloader` from [https://github.com/acidanthera/OpenCorePkg/releases](https://github.com/acidanthera/OpenCorePkg/releases), find the file named `OpenCanopy.efi` from `x64` >> `EFI` >> `OC` >> `Drivers`, drag it out for later use
+**Step 0** -- Download the latest version of `OpenCore Bootloader` from [https://github.com/acidanthera/OpenCorePkg/releases](https://github.com/acidanthera/OpenCorePkg/releases), find the file named `OpenCanopy.efi` from `x64` >> `EFI` >> `OC` >> `Drivers`, and find `OpenCore.efi`, drag them out for later use
 
 **Step 1** -- Download the latest GUI driver from [https://github.com/acidanthera/OcBinaryData](https://github.com/acidanthera/OcBinaryData) and copy the `Resource` folder over to the new `EFI`
 
