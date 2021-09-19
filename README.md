@@ -102,7 +102,7 @@ I used the iMac19,1 SMBIOS because that was what the guide recommended at the ti
 
 Step 0 -- Download the latest version of `OpenCore Bootloader` from [https://github.com/acidanthera/OpenCorePkg/releases](https://github.com/acidanthera/OpenCorePkg/releases)
 
-Step 1 -- Find the file named `OpenCanopy.efi` from `x64` >> `EFI` >> `OC` >> `Drivers`, find `OpenCore.efi`, then find the file named `BOOTx64.efi` from `x64` >> `EFI` >> `BOOT`, and finally find the file named `OpenCanopy.efi` and `OpenRuntime.efi` from `x64` >> `EFI` >> `OC` >> `Drivers`. Copy and replace these three files to the associated locations in your old `EFI`
+Step 1 -- Find the file named `OpenCanopy.efi` from `x64` >> `EFI` >> `OC` >> `Drivers`, find `OpenCore.efi`, then find the file named `BOOTx64.efi` from `x64` >> `EFI` >> `BOOT`, and finally find the file named `OpenCanopy.efi` and `OpenRuntime.efi` from `x64` >> `EFI` >> `OC` >> `Drivers`. Copy and replace these three files to the associated locations in your old `EFI`
 
 Step 2 -- Open the `config.plist` with [Propertree](https://github.com/corpnewt/ProperTree) then use `Cmd + R` and select the `OC` folder to load the new drivers to the `config.plist`
 
