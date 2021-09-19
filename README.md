@@ -112,7 +112,7 @@ Step3 (Optional) -- Do the `config check` with `OC Configurator`
 
 **Step 0** -- Download the latest version of `OpenCore Bootloader` from [https://github.com/acidanthera/OpenCorePkg/releases](https://github.com/acidanthera/OpenCorePkg/releases), find the file named `OpenCanopy.efi` from `x64` >> `EFI` >> `OC` >> `Drivers`, and find `OpenCore.efi`, drag them out for later use
 
-**Step 1** -- Download the latest GUI driver from [https://github.com/acidanthera/OcBinaryData](https://github.com/acidanthera/OcBinaryData) and copy the `Resource` folder over to the new `EFI`
+**Step 1** -- Download the latest GUI driver from [https://github.com/acidanthera/OcBinaryData](https://github.com/acidanthera/OcBinaryData) and copy the `Resource` folder over to the new EFI
 
 **Step 2** -- Use [OC-Gen-X](https://github.com/Pavo-IM/OC-Gen-X) to generate the latest version of `OC`
 
