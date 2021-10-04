@@ -94,9 +94,9 @@ I used the iMac19,1 SMBIOS because that was what the guide recommended at the ti
 
 ## OC Version tags
 
-- [0.6.8](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.6.8)
-- [0.7.1](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.7.1)
 - [0.7.3](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.7.3)
+- [0.7.1](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.7.1)
+- [0.6.8](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.6.8)
 
 ## Upgrade Guide
 
