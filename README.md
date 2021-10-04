@@ -1,4 +1,4 @@
-# Hackintosh EFI
+# ASUS B460 Strix ITX OpenCore EFI
 
 The Hackintosh is based on OpenCore (`0.7.3` at time of writing) and `macOS Monterey` following the Dortania [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/) for [Comet Lake](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#starting-point).
 
