@@ -1,6 +1,6 @@
 # ASUS B460 Strix ITX OpenCore EFI
 
-The Hackintosh is based on OpenCore (`0.7.3` at time of writing) and `macOS Monterey` following the Dortania [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/) for [Comet Lake](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#starting-point).
+The Hackintosh is based on OpenCore (`0.7.6` at time of writing) and `macOS Monterey` following the Dortania [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/) for [Comet Lake](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#starting-point).
 
 Hackintosh EFI for `ASUS ROG STRIX B460I` + `Intel Core i7 10700` + `BCM94360CS2 Wireless Air Port Card`
 
@@ -94,19 +94,10 @@ I used the iMac19,1 SMBIOS because that was what the guide recommended at the ti
 
 ## OC Version tags
 
+- [0.7.6](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.7.6)
 - [0.7.3](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.7.3)
 - [0.7.1](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.7.1)
 - [0.6.8](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.6.8)
-
-## Upgrade Guide
-
-Step 0 -- Download the latest version of `OpenCore Bootloader` from [https://github.com/acidanthera/OpenCorePkg/releases](https://github.com/acidanthera/OpenCorePkg/releases)
-
-Step 1 -- Find the file named `OpenCanopy.efi` from `x64` >> `EFI` >> `OC` >> `Drivers`, find `OpenCore.efi`, then find the file named `BOOTx64.efi` from `x64` >> `EFI` >> `BOOT`, and finally find the file named `OpenCanopy.efi` and `OpenRuntime.efi` from `x64` >> `EFI` >> `OC` >> `Drivers`. Copy and replace these three files to the associated locations in your old `EFI`
-
-Step 2 -- Open the `config.plist` with [Propertree](https://github.com/corpnewt/ProperTree) then use `Cmd + R` and select the `OC` folder to load the new drivers to the `config.plist`
-
-Step3 (Optional) -- Do the `config check` with `OC Configurator`
 
 ## Setup Guide (Start From Scratch)
 
@@ -135,6 +126,7 @@ Step3 (Optional) -- Do the `config check` with `OC Configurator`
 
 ## Useful Tools for Hackintosh
 
+- [OpenCore QtOpenCoreConfig](https://github.com/ic005k/QtOpenCoreConfig)
 - [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/)
 - [OC Builder](https://github.com/Pavo-IM/ocbuilder)
 - [Hackintools](https://github.com/headkaze/Hackintool)
