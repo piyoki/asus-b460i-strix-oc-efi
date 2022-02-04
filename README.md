@@ -1,6 +1,6 @@
 # ASUS B460 Strix ITX OpenCore EFI
 
-The Hackintosh is based on OpenCore (`0.7.7` at time of writing) and `macOS Monterey 12.2` following the Dortania [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/) for [Comet Lake](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#starting-point).
+The Hackintosh is based on OpenCore `0.7.7` at time of writing, and `macOS Monterey 12.2` following the Dortania [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/) for [Comet Lake](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#starting-point).
 
 Hackintosh EFI for `ASUS ROG STRIX B460I` + `Intel Core i7 10700` + `BCM94360CS2 Wireless Air Port Card`
 
