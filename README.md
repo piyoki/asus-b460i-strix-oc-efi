@@ -102,26 +102,6 @@ I used the iMac19,1 SMBIOS because that was what the guide recommended at the ti
 - [0.7.1](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.7.1)
 - [0.6.8](https://github.com/yqlbu/Hackintosh-EFI/releases/tag/v0.6.8)
 
-## Setup Guide (Start From Scratch)
-
-**Step 0** -- Download the latest version of `OpenCore Bootloader` from [https://github.com/acidanthera/OpenCorePkg/releases](https://github.com/acidanthera/OpenCorePkg/releases), find the file named `OpenCanopy.efi` from `x64` >> `EFI` >> `OC` >> `Drivers`, and find `OpenCore.efi`, drag them out for later use
-
-**Step 1** -- Download the latest GUI driver from [https://github.com/acidanthera/OcBinaryData](https://github.com/acidanthera/OcBinaryData) and copy the `Resource` folder over to the new EFI
-
-**Step 2** -- Use [OC-Gen-X](https://github.com/Pavo-IM/OC-Gen-X) to generate the latest version of `OC`
-
-**Step 3** -- Copy the `ACPI` and `KEXT` files from the repo
-
-**Step 4** -- Copy the previous version of `config.plist` to the new `EFI` folder
-
-**Step 5** -- Open the `config.plist` with [Propertree](https://github.com/corpnewt/ProperTree) then use `Cmd + R` and select the `OC` folder to load the new drivers to the `config.plist`
-
-**Step 6** -- Modify `Platforminfo` > `Generic` > `MLB`, `SystemSerialNumber`, and `SystemUUID` in the new `config.plist` to match the data in the old `config.plist`
-
-**Step 7** -- Modify `Misc` > `PickerMode` set from `Builtin` to `External`, `ShowPicker` to `True` in `config.plist`. This will enable the Graphic Picker feature at boot.
-
-**Step 8** -- Go through the new `config.plist` with [OpenCore Sanity Checker](https://opencore.slowgeek.com/), if everything is satisfied in the check list, the new `EFI` should be good to go
-
 ## Source Code
 
 - [OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg)
