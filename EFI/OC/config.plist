@@ -1085,7 +1085,7 @@
 				<key>SystemAudioVolumeDB</key>
 				<data>4g==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 agdpmod=pikera alcid=1 keepsyms=1 debug=0x100 igfxonln=1 dk.e1000=0</string>
+				<string>keepsyms=1 agdpmod=pikera alcid=1 debug=0x100 igfxonln=1 dk.e1000=0</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1327,7 +1327,7 @@
 			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>Resolution</key>
-			<string>Max</string>
+			<string>2560×1440@32</string>
 			<key>SanitiseClearScreen</key>
 			<false/>
 			<key>TextRenderer</key>
