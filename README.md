@@ -4,6 +4,8 @@ The Hackintosh is based on OpenCore `0.7.9` at the time of writing, and `macOS M
 
 Hackintosh EFI for `ASUS ROG STRIX B460I` + `Intel Core i7 10700` + `BCM94360CS2 Wireless Air Port Card`
 
+![](https://raw.githubusercontent.com/yqlbu/asus-b460i-strix-oc-efi/master/assets/screenshot.png)
+
 #### Important Notes
 
 Since `MacOS 12.3+`, if your GPU is based on `Navi` Architecture (5500XT, 5700XT, 6000 Series), then you will need `frame buffer` patches to your EFI.
@@ -11,10 +13,6 @@ Since `MacOS 12.3+`, if your GPU is based on `Navi` Architecture (5500XT, 5700XT
 - Reference: https://www.tonymacx86.com/threads/macos-12-3-update-causes-problems-for-5700-6700-6800-6900-graphics-cards.319421/page-14
 
 - Under `DeviceProperties` add your GPU device information and add the frame buffer patches associtated to your card. You may find the samples in the `GPU Patches` directory
-
-
-
-![](https://raw.githubusercontent.com/yqlbu/asus-b460i-strix-oc-efi/master/assets/screenshot.png)
 
 ## Hardware
 
