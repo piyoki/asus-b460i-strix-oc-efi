@@ -4,6 +4,16 @@ The Hackintosh is based on OpenCore `0.7.9` at the time of writing, and `macOS M
 
 Hackintosh EFI for `ASUS ROG STRIX B460I` + `Intel Core i7 10700` + `BCM94360CS2 Wireless Air Port Card`
 
+#### Important Notes
+
+Since `MacOS 12.3+`, if your GPU is based on `Navi` Architecture (5500XT, 5700XT, 6000 Series), then you will need `frame buffer` patches to your EFI.
+
+- Reference: https://www.tonymacx86.com/threads/macos-12-3-update-causes-problems-for-5700-6700-6800-6900-graphics-cards.319421/page-14
+
+- Under `DeviceProperties` add your GPU device information and add the frame buffer patches associtated to your card. You may find the samples in the `GPU Patches` directory
+
+
+
 ![](https://raw.githubusercontent.com/yqlbu/asus-b460i-strix-oc-efi/master/assets/screenshot.png)
 
 ## Hardware
@@ -88,10 +98,10 @@ I used the iMac19,1 SMBIOS because that was what the guide recommended at the ti
 
 ## Benchmarks
 
-| Items                                                        | Scores                           |
-| :----------------------------------------------------------- | :------------------------------- |
-| CPU - Geekbench                                              | Single / Multi-Core: 1262 / 7773 |
-| Intel UHD630 - Geekbench                                     | OpenCL / Metal: 5319 / 4972      |
+| Items                                                                                                                                            | Scores                           |
+|:------------------------------------------------------------------------------------------------------------------------------------------------ |:-------------------------------- |
+| CPU - Geekbench                                                                                                                                  | Single / Multi-Core: 1262 / 7773 |
+| Intel UHD630 - Geekbench                                                                                                                         | OpenCL / Metal: 5319 / 4972      |
 | RX 5500 XT - Geekbench ([with Radeon performance improvements](https://www.tonymacx86.com/threads/amd-radeon-performance-enhanced-ssdt.296555/)) | OpenCL / Metal: 37937/ 39645     |
 
 ## OC Version tags
@@ -118,4 +128,3 @@ I used the iMac19,1 SMBIOS because that was what the guide recommended at the ti
 - [Propertree](https://github.com/corpnewt/ProperTree)
 - [OpenCore Official Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [OpenCore Sanity Checker](https://opencore.slowgeek.com/)
-
